@@ -31,7 +31,7 @@ SweetShop allows **Shop Owners** to manage their sweets and **Customers** to bro
 | **Auth** | JWT Token-based Authentication |
 
 
----
+💖 Acknowledgments
 
-## ⚙️ Project Structure
+Built with ❤️ by Maruthi
 
