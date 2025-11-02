@@ -1,0 +1,398 @@
+/* 🌸 Container styling */
+.sweet-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #fff5f7, #ffeef2);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🔍 Search bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  gap: 10px;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ffd6e8;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #ff5d8f;
+  box-shadow: 0 0 5px rgba(255, 93, 143, 0.4);
+}
+
+.search-bar button {
+  background-color: #ff5d8f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #ff3d73;
+}
+
+/* 🍬 Sweet Grid Layout */
+.sweet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 25px;
+  padding: 0 10px;
+}
+
+/* 🍭 Sweet Card */
+.sweet-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(255, 93, 143, 0.15);
+  transition: all 0.3s ease-in-out;
+  border-top: 5px solid #ffafcc;
+  position: relative;
+}
+
+.sweet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 93, 143, 0.25);
+}
+
+/* 🏷️ Sweet Info */
+.sweet-card h3 {
+  color: #ff3d73;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.sweet-card p {
+  color: #555;
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* ⭐ Action Buttons */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.actions button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.actions button:first-child {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.actions button:first-child:hover {
+  background-color: #45a049;
+}
+
+.actions button:last-child {
+  background-color: #ff5d8f;
+  color: white;
+}
+
+.actions button:last-child:hover {
+  background-color: #ff3d73;
+}
+
+/* 🧁 Editable input fields */
+.sweet-card input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: 1px solid #ffcce1;
+  outline: none;
+  text-align: center;
+}
+
+.sweet-card input:focus {
+  border-color: #ff5d8f;
+  box-shadow: 0 0 3px rgba(255, 93, 143, 0.3);
+}
+
+/* 💖 Title */
+.sweet-container h2 {
+  font-size: 2rem;
+  color: #ff3d73;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(255, 93, 143, 0.2);
+}
+/* 🍩 Add Sweet Page */
+.add-sweet-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(255, 93, 143, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  border-top: 6px solid #ff85a2;
+}
+
+.add-sweet-container:hover {
+  transform: translateY(-5px);
+}
+
+/* 💖 Title */
+.add-sweet-container h2 {
+  color: #ff3d73;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px rgba(255, 93, 143, 0.2);
+}
+
+/* 🍬 Input fields */
+.add-sweet-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ffc9dc;
+  background: #fff5f7;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.add-sweet-container input:focus {
+  border-color: #ff5d8f;
+  box-shadow: 0 0 6px rgba(255, 93, 143, 0.3);
+}
+
+/* 🎀 Submit button */
+.add-sweet-container button {
+  width: 100%;
+  background: linear-gradient(135deg, #ff5d8f, #ff85a2);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.add-sweet-container button:hover {
+  background: linear-gradient(135deg, #ff3d73, #ff6699);
+  box-shadow: 0 4px 15px rgba(255, 93, 143, 0.3);
+}
+
+/* 🌈 Go Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ff3d73;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #ff0077;
+}
+/* 🍫 Sweet Card Buttons */
+.sweet-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.sweet-card button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  background: #ffd966;
+  color: #222;
+}
+
+.edit-btn:hover {
+  background: #ffcc33;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #e63946;
+}
+
+.save-btn {
+  background: #5cb85c;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #4cae4c;
+}
+
+.cancel-btn {
+  background: #999;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background: #777;
+}
+.search-btn {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.search-btn:hover {
+  background-color: #5a4bd1;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+/* 🌈 NAVBAR STYLING */
+.navbar {
+  background-color: #6c5ce7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.navbar-logo {
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar-logo span {
+  color: #ffeaa7;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ffeaa7;
+  transform: translateY(-1px);
+}
+
+.logout-btn {
+  background-color: #d63031;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+.buy-btn {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: linear-gradient(135deg, #4834d4, #7f6df2);
+  transform: translateY(-2px);
+}
+.purchase-btn {
+  background: #6c5ce7;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.purchase-btn:hover {
+  background: #5a4bd1;
+}
+.purchase-btn {
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.purchase-btn:hover {
+  background: linear-gradient(135deg, #43a047, #66bb6a);
+}
+
+.purchase-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
