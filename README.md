@@ -1,4 +1,4 @@
-# 🍬 SweetShop – Full Stack Candy Store Management App
+# 🍬 SweetShop – Full Stack Sweet Shop Management App
 
 A full-stack web application built using **Django REST Framework (backend)** and **React + Vite (frontend)**.  
 SweetShop allows **Shop Owners** to manage their sweets and **Customers** to browse and purchase from multiple shops.
